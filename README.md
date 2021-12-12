@@ -17,7 +17,7 @@ pip install aiogram<br>
 Git bush https://git-scm.com/downloads<br>
 DB browser https://sqlitebrowser.org/dl/<br>
 <br>
-Для того чтобы скачать весь код в свой ПК надо прописать (убедитесь что у вас скачан гиб баш):<br>
+Для того чтобы скачать весь код в свой ПК надо прописать (убедитесь что у вас скачан гит баш):<br>
 git clone https://github.com/Az-ber/Carbot
 
 Спасибо за внимание!
