@@ -12,15 +12,15 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 ############################################################################
 
 
-b1 = KeyboardButton('Меню')
-b2 = KeyboardButton('Информация о машинах')
-b3 = KeyboardButton('Отмена')
-b4 = KeyboardButton('Контакты')
+b1 = KeyboardButton('Меню✨')
+b2 = KeyboardButton('Информация о машинах👁‍🗨')
+b3 = KeyboardButton('Отмена⛔')
+b4 = KeyboardButton('Контакты📬')
 b6 = KeyboardButton('Купить')
-b7 = KeyboardButton('Просмотр покупок')
-b8 = KeyboardButton('Админка')
-b9 = KeyboardButton('Назад')
-b10 = KeyboardButton('Отменить')
+b7 = KeyboardButton('Просмотр покупок🎁')
+b8 = KeyboardButton('Админка😎')
+b9 = KeyboardButton('Назад🔽')
+b10 = KeyboardButton('Отменить⛔')
 
 
 #####################################################################
@@ -46,13 +46,12 @@ cancel_buy.add(b10)
 #Создание инлайн клавиаутуры и объединения их
 #######################################################################################
 
-ib = InlineKeyboardMarkup(row_width=2).add(InlineKeyboardButton(text='Спарк', callback_data='Спарк')).add(
-    InlineKeyboardButton(text='Кобальт', callback_data='Кобальт')).add(InlineKeyboardButton(text='Нексиа', callback_data='Нексиа')).add(InlineKeyboardButton(text='Ласетти', callback_data='Ласетти'))
+ib = InlineKeyboardMarkup(row_width=2).add(InlineKeyboardButton(text='Спарк🚕', callback_data='Спарк🚕')).add(
+    InlineKeyboardButton(text='Кобальт🚗', callback_data='Кобальт🚗')).add(InlineKeyboardButton(text='Нексиа🚖', callback_data='Нексиа🚖')).add(InlineKeyboardButton(text='Ласетти🚘', callback_data='Ласетти🚘'))
 
-eb = InlineKeyboardMarkup(row_width=2).add(InlineKeyboardButton(text='Принять', callback_data='Принять'), InlineKeyboardButton(text='Отклонить', callback_data='Отклонить'))
+eb = InlineKeyboardMarkup(row_width=2).add(InlineKeyboardButton(text='Принять✅', callback_data='Принять✅'), InlineKeyboardButton(text='Отклонить❌', callback_data='Отклонить❌'))
 
-payb = InlineKeyboardMarkup(row_width=1).add(InlineKeyboardButton(text='Оплатить 100 руб', callback_data='оплатить'))
-
+payb = InlineKeyboardMarkup(row_width=1).add(InlineKeyboardButton(text='Оплатить 100 руб🤑', callback_data='оплатить🤑'))
 
 
 
